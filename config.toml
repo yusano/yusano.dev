@@ -1,0 +1,41 @@
+[params]
+  name = "Herfan Yusano"
+  altName = "yusano"
+  description = "Describe your website"
+  bio = "DevOps Engineer"
+  enableRSS = false
+
+  # Author information in posts
+  aboutAuthor = "I'm a DevOps Engineer."
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = [
+    "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+  ]
+  customJS  = []
+
+  # The variables below are optionally too and can be used to
+  # translate or customize each string of the theme.
+
+  # Navigation links
+	home = ""
+	subscribe = ""
+
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
+
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+# Add additional social link entries underneath
+[social]
+	email    = "herfan.yusano@gmail.com"
+	github   = "https://github.com/yusano"
+	linkedin = "https://www.linkedin.com/in/herfan-yusano-0a242337/"
+
+[taxonomies]
+  tag = "tags"
